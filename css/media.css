@@ -1,0 +1,68 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+
+}
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+}
+@media (min-width: 769px) and (max-width: 992px)
+{
+
+}
+@media(max-width:992px)
+{
+}
+
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px)
+{
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+    
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 3rem;
+        height: 3rem;
+        border-width: 12px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+}
+@media(max-width:576px)
+{
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+
+}
+@media (max-width: 320px){
+}
+@media (max-width: 992px){
+
+}@media (max-width: 991px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        margin-top: 25px;
+        border-top: 1px solid #EEEEEE;
+    }
+}
